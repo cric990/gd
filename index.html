@@ -3,132 +3,150 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>XamIQ Elite | Scholar System</title>
+    <title>XamIQ Elite | Scholar Hub</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body oncontextmenu="return false;" onselectstart="return false;">
 
-    <!-- Deep Tech Startup Screen -->
-    <div id="app-startup">
-        <div class="startup-vessel">
-            <div class="elite-ring"></div>
-            <div class="logo-glow">X</div>
-            <h1 class="brand-vibe">XamIQ</h1>
-            <div class="load-track"><div class="load-bar"></div></div>
-            <p class="status-node">Please wait...</p>
+    <!-- Luxury App Loader -->
+    <div id="app-preloader">
+        <div class="loader-content">
+            <div class="vortex-ring"></div>
+            <div class="brand-vessel">
+                <span class="char">X</span><span class="char">a</span><span class="char">m</span><span class="char">I</span><span class="char">Q</span>
+            </div>
+            <div class="progress-track"><div class="progress-fill"></div></div>
+            <p class="status-text">INITIALIZING SECURE GATEWAY</p>
         </div>
     </div>
 
-    <!-- Main App Container -->
-    <div class="app-frame">
-        
-        <!-- Premium Floating Header -->
-        <header class="app-nav">
-            <div class="nav-side">
-                <button id="theme-node" class="ctrl-btn"><i class="fa-solid fa-circle-half-stroke"></i></button>
+    <div class="app-interface">
+        <!-- Center-Aligned Premium Header -->
+        <header class="app-header">
+            <div class="hdr-side">
+                <button id="theme-toggle" class="hdr-btn"><i class="fa-solid fa-moon"></i></button>
             </div>
-            <div class="nav-center">
-                <span class="logo-text">XamIQ <small>plus</small></span>
+            <div class="hdr-center">
+                <h1 class="premium-logo">XamIQ</h1>
             </div>
-            <div class="nav-side">
-                <a href="https://whatsapp.com/channel/0029VbAvIUo2ZjCu4eWjOw1T" target="_blank" class="wa-premium-btn">
+            <div class="hdr-side right">
+                <a href="https://whatsapp.com/channel/0029VbAvIUo2ZjCu4eWjOw1T" target="_blank" class="hdr-btn wa-link">
                     <i class="fa-brands fa-whatsapp"></i>
                 </a>
             </div>
         </header>
 
-        <!-- Dynamic Content Space -->
+        <!-- Main Dashboard Viewport -->
         <main class="viewport">
-            
-            <!-- Dashboard View -->
-            <section id="dashboard" class="active-view">
-                <div class="user-profile-bar">
-                    <div class="avatar-sq">S</div>
-                    <div class="user-meta">
-                        <h2>Welcome to XamIQ</h2>
-                        <p>XamIQ</p>
-                    </div>
-                </div>
+            <div class="greeting-zone">
+                <h2>Elite Learning Hub</h2>
+                <p>Select a specialized module to initialize your encrypted session.</p>
+            </div>
 
-                <div class="subject-grid">
-                    <div class="sub-card" data-token="2271" data-label="Maths">
-                        <div class="icon-node i-1"><i class="fa-solid fa-calculator"></i></div>
-                        <span>Mathematics</span>
-                    </div>
-                    <div class="sub-card" data-token="2272" data-label="Reasoning">
-                        <div class="icon-node i-2"><i class="fa-solid fa-brain"></i></div>
-                        <span>Reasoning</span>
-                    </div>
-                    <div class="sub-card" data-token="2273" data-label="English">
-                        <div class="icon-node i-3"><i class="fa-solid fa-book-open"></i></div>
-                        <span>English</span>
-                    </div>
-                    <div class="sub-card" data-token="2276" data-label="Static GK">
-                        <div class="icon-node i-4"><i class="fa-solid fa-earth-asia"></i></div>
-                        <span>Static GK</span>
-                    </div>
-                    <div class="sub-node-row">
-                        <div class="sub-card-mini" data-token="2275" data-label="Geography">
-                            <div class="icon-node i-5"><i class="fa-solid fa-map-location-dot"></i></div>
-                            <span>Geography</span>
-                        </div>
-                        <div class="sub-card-mini" data-token="2274" data-label="Hindi">
-                            <div class="icon-node i-6"><i class="fa-solid fa-language"></i></div>
-                            <span>Hindi</span>
-                        </div>
-                    </div>
-                    <div class="sub-card" data-token="2277" data-label="Polity">
-                        <div class="icon-node i-7"><i class="fa-solid fa-landmark"></i></div>
-                        <span>Polity</span>
-                    </div>
-                    <div class="sub-card" data-token="2278" data-label="Biology">
-                        <div class="icon-node i-8"><i class="fa-solid fa-dna"></i></div>
-                        <span>Biology</span>
-                    </div>
-                    <div class="sub-card" data-token="2395" data-label="Chemistry">
-                        <div class="icon-node i-9"><i class="fa-solid fa-flask-vial"></i></div>
-                        <span>Chemistry</span>
-                    </div>
-                    <div class="sub-card" data-token="2399" data-label="History">
-                        <div class="icon-node i-10"><i class="fa-solid fa-clock-rotate-left"></i></div>
-                        <span>History</span>
+            <!-- Optimized Grid with Bento Layout -->
+            <div class="module-matrix">
+                <div class="node-card" data-token="mth">
+                    <div class="node-icon n-math"><i class="fa-solid fa-calculator"></i></div>
+                    <div class="node-meta">
+                        <h3>Mathematics</h3>
+                        <span>Deepak Sir</span>
                     </div>
                 </div>
-            </section>
-
-            <!-- Inbuilt Virtual Browser Portal -->
-            <section id="portal-view" class="view">
-                <div class="portal-header">
-                    <button id="close-portal"><i class="fa-solid fa-chevron-left"></i> Back</button>
-                    <div class="portal-title">Batches</div>
-                    <button id="refresh-portal"><i class="fa-solid fa-rotate-right"></i></button>
-                </div>
-                <div class="portal-container">
-                    <div id="portal-loader" class="portal-overlay">
-                        <div class="lux-spinner"></div>
-                        <p>XamIQ Loading...</p>
+                <div class="node-card" data-token="rsn">
+                    <div class="node-icon n-rsn"><i class="fa-solid fa-brain"></i></div>
+                    <div class="node-meta">
+                        <h3>Reasoning</h3>
+                        <span>Mental Ability</span>
                     </div>
-                    <iframe id="app-portal" src="about:blank" referrerpolicy="no-referrer"></iframe>
                 </div>
-            </section>
+                <div class="node-card full-width" data-token="eng">
+                    <div class="node-icon n-eng"><i class="fa-solid fa-book-open"></i></div>
+                    <div class="node-meta">
+                        <h3>General English</h3>
+                        <span>Grammar & Vocabulary Specialist</span>
+                    </div>
+                    <div class="node-badge">LIVE</div>
+                </div>
+                <div class="node-card" data-token="sgk">
+                    <div class="node-icon n-gk"><i class="fa-solid fa-earth-asia"></i></div>
+                    <div class="node-meta">
+                        <h3>Static GK</h3>
+                        <span>World Facts</span>
+                    </div>
+                </div>
+                <div class="node-card" data-token="geo">
+                    <div class="node-icon n-geo"><i class="fa-solid fa-map-location-dot"></i></div>
+                    <div class="node-meta">
+                        <h3>Geography</h3>
+                        <span>Physical</span>
+                    </div>
+                </div>
+                <div class="node-card" data-token="hin">
+                    <div class="node-icon n-hin"><i class="fa-solid fa-language"></i></div>
+                    <div class="node-meta">
+                        <h3>Hindi</h3>
+                        <span>Language</span>
+                    </div>
+                </div>
+                <div class="node-card" data-token="pol">
+                    <div class="node-icon n-pol"><i class="fa-solid fa-landmark"></i></div>
+                    <div class="node-meta">
+                        <h3>Polity</h3>
+                        <span>Constitution</span>
+                    </div>
+                </div>
+                <div class="node-card" data-token="bio">
+                    <div class="node-icon n-bio"><i class="fa-solid fa-dna"></i></div>
+                    <div class="node-meta">
+                        <h3>Biology</h3>
+                        <span>Sciences</span>
+                    </div>
+                </div>
+                <div class="node-card" data-token="che">
+                    <div class="node-icon n-che"><i class="fa-solid fa-flask-vial"></i></div>
+                    <div class="node-meta">
+                        <h3>Chemistry</h3>
+                        <span>Elements</span>
+                    </div>
+                </div>
+                <div class="node-card" data-token="his">
+                    <div class="node-icon n-his"><i class="fa-solid fa-clock-rotate-left"></i></div>
+                    <div class="node-meta">
+                        <h3>History</h3>
+                        <span>Chronology</span>
+                    </div>
+                </div>
+            </div>
         </main>
     </div>
 
-    <!-- Security Toast -->
-    <div id="security-toast">SYSTEM PROTECTION ENABLED</div>
+    <!-- Security Notification -->
+    <div id="sec-toast" class="security-toast">ACCESS PROTECTED: SECURITY PROTOCOL ACTIVE</div>
 
-    <!-- WhatsApp Toast -->
-    <div id="wa-toast" class="wa-premium-toast">
-        <div class="toast-icon"><i class="fa-brands fa-whatsapp"></i></div>
-        <div class="toast-info">
-            <strong>Daily Content Updates</strong>
-            <span>Join Official Channel</span>
+    <!-- Inbuilt Dashboard WhatsApp Toast -->
+    <div id="wa-inbuilt-toast" class="wa-premium-toast">
+        <div class="toast-inner">
+            <i class="fa-brands fa-whatsapp"></i>
+            <div class="toast-txt">
+                <strong>XamIQ Official Channel</strong>
+                <span>New Module Updates Available</span>
+            </div>
+            <i class="fa-solid fa-chevron-right arrow"></i>
         </div>
     </div>
 
-    <!-- SFX -->
-    <audio id="tap-audio" src="https://assets.mixkit.co/active_storage/sfx/2571/2571-preview.mp3" preload="auto"></audio>
+    <!-- Secure Gateway Overlay (Redirect Mask) -->
+    <div id="secure-gateway" class="gateway-mask">
+        <div class="gateway-content">
+            <div class="scanning-scanner"></div>
+            <h3>Securing Link Session</h3>
+            <p>Bypassing server headers and masking origin data...</p>
+        </div>
+    </div>
+
+    <!-- Premium Tap SFX -->
+    <audio id="tap-sfx" src="https://assets.mixkit.co/active_storage/sfx/2571/2571-preview.mp3" preload="auto"></audio>
 
     <script src="script.js"></script>
 </body>
